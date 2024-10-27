@@ -3,15 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1_Day_Bien_DataType", "1_Day\1_Day_Bien_DataType.csproj", "{F2817934-31CC-4757-BF2F-07D323231064}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1_Day_Bien_DataType", "1_Day\1_Day_Bien_DataType.csproj", "{F2817934-31CC-4757-BF2F-07D323231064}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.Day_ToanTu", "2.Day\2.Day_ToanTu.csproj", "{6A2308B4-D4D7-4B59-B9D6-81228558A619}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.Day_ToanTu", "2.Day\2.Day_ToanTu.csproj", "{6A2308B4-D4D7-4B59-B9D6-81228558A619}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.Day_SoSanh_Logic", "3.Day_SoSanh_Logic\3.Day_SoSanh_Logic.csproj", "{D60EE9E1-D2D8-48D4-92B9-7E68D9136C6F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.Day_SoSanh_Logic", "3.Day_SoSanh_Logic\3.Day_SoSanh_Logic.csproj", "{D60EE9E1-D2D8-48D4-92B9-7E68D9136C6F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.Day_For_While", "4.Day_For_While\4.Day_For_While.csproj", "{DCAA0599-3725-49A8-9DFC-639CF3645910}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4.Day_For_While", "4.Day_For_While\4.Day_For_While.csproj", "{DCAA0599-3725-49A8-9DFC-639CF3645910}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.Day_Array", "5.Day_Array\5.Day_Array.csproj", "{F4677F5E-57A6-452A-BB56-26DE98E16233}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5.Day_Array", "5.Day_Array\5.Day_Array.csproj", "{F4677F5E-57A6-452A-BB56-26DE98E16233}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.Day_Method", "6.Day_Method\6.Day_Method.csproj", "{7516C7B7-147F-4F8E-A88B-2F3105D762F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.Day_ConvertData", "7.Day_ConvertData\7.Day_ConvertData.csproj", "{AB8E415A-4684-4FFD-A41C-D6C41D20A291}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8.Day_Class", "8.Day_Class\8.Day_Class.csproj", "{6340B89D-18CA-4408-8E20-0AB9B78D175C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +45,18 @@ Global
 		{F4677F5E-57A6-452A-BB56-26DE98E16233}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4677F5E-57A6-452A-BB56-26DE98E16233}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F4677F5E-57A6-452A-BB56-26DE98E16233}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7516C7B7-147F-4F8E-A88B-2F3105D762F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7516C7B7-147F-4F8E-A88B-2F3105D762F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7516C7B7-147F-4F8E-A88B-2F3105D762F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7516C7B7-147F-4F8E-A88B-2F3105D762F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB8E415A-4684-4FFD-A41C-D6C41D20A291}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB8E415A-4684-4FFD-A41C-D6C41D20A291}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB8E415A-4684-4FFD-A41C-D6C41D20A291}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB8E415A-4684-4FFD-A41C-D6C41D20A291}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6340B89D-18CA-4408-8E20-0AB9B78D175C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6340B89D-18CA-4408-8E20-0AB9B78D175C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6340B89D-18CA-4408-8E20-0AB9B78D175C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6340B89D-18CA-4408-8E20-0AB9B78D175C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
