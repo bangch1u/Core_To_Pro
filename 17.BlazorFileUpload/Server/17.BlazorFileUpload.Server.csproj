@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>17.BlazorFileUpload.Server</RootNamespace>
+    <AssemblyName>$(AssemblyName.Replace(' ', '_'))</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="6.0.32" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Client\17.BlazorFileUpload.Client.csproj" />
+    <ProjectReference Include="..\Shared\17.BlazorFileUpload.Shared.csproj" />
+  </ItemGroup>
+
+
+</Project>
